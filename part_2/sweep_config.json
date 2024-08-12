@@ -1,0 +1,41 @@
+{
+    "method": "bayes",
+    "metric": {
+        "name": "validation_accuracy",
+        "goal": "maximize"   
+    },
+    "parameters": {
+        "num_filters_1": {
+            "values": [32, 64]
+        },
+        "num_filters_2": {
+            "values": [64, 128]
+        },
+        "num_filters_3": {
+            "values": [128, 256]
+        },
+        "dropout_rate": {
+            "values": [0.125, 0.25, 0.5]
+        },
+        "learning_rate": {
+			"distribution": "uniform",
+            "min": 1e-4,
+            "max": 1e-2
+        },
+        "momentum": {
+			"distribution": "uniform",
+            "min": 0.8,
+            "max": 0.99
+        },
+        "batch_size": {
+            "values": [8, 16, 32, 64, 128]
+        },
+        "epochs": {
+            "distribution": "q_uniform",
+            "q": 5,
+            "min": 30,
+            "max": 50
+        }
+
+    }
+}
