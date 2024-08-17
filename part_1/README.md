@@ -63,13 +63,21 @@ Some layers do not benefit from quantization or cannot be quantized effectively:
 ## Quantisation results
 
 🍩 Original model (gpu):
+
 > Inference Speed: 0.0077 seconds per frame
+
 🍩 Original model:
+
 > Inference Speed: 0.2014 seconds per frame
+
 🚀 Quantized model 1: Linear Layers only
+
 > Inference Speed: 0.1940 seconds per frame
+
 🌟 Quantized model 2: Linear and Conv Layers
+
 > Inference Speed: 0.1892 seconds per frame
+
 
 Accuracy results are not shared because the recommended torch dino model is not trained on the Tiny ImageNet model. From experience, I can say that the there is only a slight degradation in model accuracy.
 
