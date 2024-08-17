@@ -66,7 +66,7 @@ Some layers do not benefit from quantization or cannot be quantized effectively:
 
 > Inference Speed: 0.0077 seconds per frame
 
-🍩 Original model:
+🍩 Original model (cpu):
 
 > Inference Speed: 0.2014 seconds per frame
 

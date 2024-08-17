@@ -139,7 +139,9 @@ This configuration effectively explores different architectures and regularizati
 
 ## Results and Observations 📊
 
-The hyperparameter tuning results can be viewed via an interactive report on this server: https://wandb.ai/arjvn/SimpleCNN/sweeps/bkx8n4t2?nw=nwuserarjvn. Let me know if you cant access it - pdf print: part_2/bayes_hyperparameter_opt_cnn.pdf
+The hyperparameter tuning results can be viewed via an interactive report on this server: https://wandb.ai/arjvn/SimpleCNN/sweeps/bkx8n4t2?nw=nwuserarjvn. 
+
+Let me know if you cant access it - pdf print: part_2/bayes_hyperparameter_opt_cnn.pdf
 
 [![W&B Graph](images/wandb_val_time.png)](https://wandb.ai/arjvn/SimpleCNN/sweeps/b6udp0vp?nw=nwuserarjvn)
 
