@@ -14,7 +14,8 @@ pip install -r requirements.txt
 
 Objective: Quantize a complex vision model and benchmark its inference performance on the Tiny ImageNet dataset.
 
-Details: Part 1 README
+Details: part_1/README.md
+
 Key Tasks:
 
 - Download and prepare a subset of Tiny ImageNet.
@@ -25,7 +26,8 @@ Key Tasks:
 
 Objective: Optimize hyperparameters for a CNN on the Tiny ImageNet training dataset.
 
-Details: Part 2 README
+Details: part_2/README.md
+
 Key Tasks:
 
 - Define and setup a CNN for the CIFAR-100 dataset.
@@ -36,10 +38,10 @@ Key Tasks:
 
 Objective: Convert and optimize a trained model for fast inference on Nvidia GPUs using TensorRT and ONNX.
 
-Details: Part 3 README
+Details: part_3/README.md
+
 Key Tasks:
 
 - Export a pre-trained model to ONNX format.
 - Convert the ONNX model to TensorRT.
 - Benchmark and report the inference performance.
-
