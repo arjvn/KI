@@ -84,6 +84,7 @@ Accuracy results are not shared because the recommended torch dino model is not 
 > Post Submission Thoughts by Arjun:
 >
 > I could have used [this](https://huggingface.co/facebook/dinov2-giant-imagenet1k-1-layer). We can find models with pretrained heads on huggingface. The version released by meta clearly states: "Note that this model does not include any fine-tuned heads."
+> REGARDLESS the quantisation results stand!
 
 ## Understanding Quantization and GPU Limitations
 
