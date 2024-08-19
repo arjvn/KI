@@ -81,6 +81,10 @@ Some layers do not benefit from quantization or cannot be quantized effectively:
 
 Accuracy results are not shared because the recommended torch dino model is not trained on the Tiny ImageNet model. From experience, I can say that the there is only a slight degradation in model accuracy.
 
+> Post Submission Thoughts by Arjun:
+>
+> I could have used [this](https://huggingface.co/facebook/dinov2-giant-imagenet1k-1-layer). We can find models with pretrained heads on huggingface. The version released by meta clearly states: "Note that this model does not include any fine-tuned heads."
+
 ## Understanding Quantization and GPU Limitations
 
 ### Why Quantize if GPU is Not Supported?
